@@ -13,4 +13,7 @@ Jina provides a smooth transition from local development (using DocArray) to loc
 1. pip install -U jina 
 2. Start by building the executor code
 Executor allows you to build a fast, scalable , reliable g-RPC based AI service 
+3. Write the deployment code using python api or YAML 
+
+4. for yml file run : jina deployment --uses deployment.yml
 

@@ -1,0 +1,8 @@
+jtype : Deployment
+with:
+  uses: StableLM
+  py_modules:
+    - executor.py
+
+  timeout_ready : -1
+  port : 5050    
